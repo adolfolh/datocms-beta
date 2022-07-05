@@ -1,0 +1,231 @@
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap');
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    @apply bg-white text-black
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding: 20px;
+}
+
+/* MENu */
+
+.hamburger .line{
+    width: 30px;
+    height: 2px;
+    display: block;
+    margin: 8px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+
+    @apply bg-black
+  }
+  
+.hamburger:hover{
+    cursor: pointer;
+}
+  
+.is-active .line:nth-child(2){
+    opacity: 0;
+}
+
+.is-active .line:nth-child(1){
+    -webkit-transform: translateY(10px) rotate(45deg);
+    -ms-transform: translateY(10px) rotate(45deg);
+    -o-transform: translateY(10px) rotate(45deg);
+    transform: translateY(10px) rotate(45deg);
+    @apply bg-white
+
+}
+
+.is-active .line:nth-child(3){
+    -webkit-transform: translateY(-10px) rotate(-45deg);
+    -ms-transform: translateY(-10px) rotate(-45deg);
+    -o-transform: translateY(-10px) rotate(-45deg);
+    transform: translateY(-10px) rotate(-45deg);
+    @apply bg-white
+
+}
+
+/* CONTENT */
+.title{
+ -webkit-transform: translate3d(0,0,0);
+ transform-style: flat;
+}
+
+.home-text-wrap {
+    position: relative;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-align: end;
+    align-items: flex-end;
+    -webkit-box-flex: 0;
+    flex: 0 auto;
+
+    @apply md:max-w-3xl ml-0 mr-0 max-w-none md:mr-16
+}
+
+a {
+    background-color: transparent;
+    display: inline-block;
+    padding: 0;
+    -webkit-transition: .2s;
+    transition: .2s;
+    text-decoration: none;
+
+    @apply text-accent-1
+}
+
+a:hover .arrow-cta{
+    transform: translate(1em,0);
+    -webkit-transform: translate(1em,0);
+    -moz-transform: translate(1em,0);
+    -o-transform: translate(1em,0);
+    -ms-transform: translate(1em,0);
+}
+
+.cta-text {
+    display: inline;
+    margin-right: 1em;
+    font-weight: 400;
+    text-align: left;
+    text-decoration: wavy !important;
+
+    @apply text-accent-1
+
+}
+
+.arrow-cta {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+
+    @apply text-accent-1
+}
+
+.arrow-button {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 2em;
+    padding: 0.5em 0.5em 0.5em 0;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 1em;
+    text-align: right;
+}
+
+.screen-70 {
+    min-height: 70vh;
+}
+
+.max-w-10{
+    max-width: 10rem;
+}
+
+/* CAROUSEL */
+.carousel {
+    overflow: scroll;
+    -ms-scroll-snap-type: x mandatory;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    width: 100vw;
+    scrollbar-color: #9491D9 black;
+
+    @apply flex-col md:flex-row  md:px-10 hidden
+}
+
+.carousel .item {
+    scroll-snap-align: start;
+    position: relative;
+
+    border-radius: 1rem;
+    flex: 0 0 45vw;
+
+    @apply px-4 md:py-4 
+}
+
+.carousel .arrow-button {
+    @apply mb-0
+}
+
+.carousel .arrow-button {
+    @apply pb-0
+}
+
+/* FONTS */
+@font-face {
+    font-family: 'VC Henrietta Trial';
+    src: url('../assets/fonts/VCHenrietta-Light.woff2') format('woff2'),
+        url('../assets/fonts/VCHenrietta-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'VC Henrietta Trial';
+    src: url('../assets/fonts/VCHenrietta-Regular.woff2') format('woff2'),
+        url('../assets/fonts/VCHenrietta-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'VC Henrietta Trial';
+    src: url('../assets/fonts/VCHenrietta-SemiBold.woff2') format('woff2'),
+        url('../assets/fonts/VCHenrietta-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'VC Henrietta Trial';
+    src: url('../assets/fonts/VCHenrietta-Medium.woff2') format('woff2'),
+        url('../assets/fonts/VCHenrietta-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'VC Henrietta Trial';
+    src: url('../assets/fonts/VCHenrietta-Bold.woff2') format('woff2'),
+        url('../assets/fonts/VCHenrietta-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
