@@ -6,6 +6,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap');
 
+img {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+video {
+    @apply rounded-md
+}
 html, body {
     margin: 0px;
     padding: 0px;

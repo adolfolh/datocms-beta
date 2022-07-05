@@ -111,8 +111,8 @@ export default function Index({ subscription }) {
               <div className="text-2xl md:text-5xl mb-8 font-accent leading-normal">
                 <h2>Hi, I'm Adolfo. I'm a data scientist and engineer based in London, UK.</h2>
               </div>
-              <div className="leading-loose">
-                <p className="font-light text-md md:text-2xl">
+              <div className="">
+                <p className="font-light text-xl md:text-2xl leading-loose">
                   I have experience researching timeseries prediction, 
                   specifically volatility forecasting. 
                   I'm a recent graduate that believes 
@@ -140,11 +140,11 @@ export default function Index({ subscription }) {
       <div className="title relative z-30">
         <Layout>
             <section>
-              <h2 className="md:px-24 p-10 mb-8 text-6xl md:text-7xl font-medium tracking-tight leading-tight font-accent">
+              <h2 className="md:px-24 p-4 mb-8 text-6xl md:text-7xl font-medium tracking-tight leading-tight font-accent">
                 projects.
               </h2>
-              <div className="md:px-24 p-10 pt-0 md:flex md:flex-col">
-                <p className="leading-loose font-light text-md md:text-xl">
+              <div className="md:px-24 p-4 pt-0 md:flex md:flex-col">
+                <p className="leading-loose font-light text-xl">
                   I have been working on some personal projects to learn 
                   more about different technologies. I like exploring data-centric 
                   projects and applying them to web applications. I also enjoy

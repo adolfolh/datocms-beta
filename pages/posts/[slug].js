@@ -55,6 +55,12 @@ export async function getStaticProps({ params, preview = false }) {
                   }
                 }
               }
+              ... on VideoBlockRecord {
+                id
+                video {
+                  url
+                }
+              }
             }
           }
           challenge {
@@ -67,6 +73,12 @@ export async function getStaticProps({ params, preview = false }) {
                   responsiveImage(imgixParams: {fm: jpg, fit: crop, w: 2000, h: 1000 }) {
                     ...responsiveImageFragment
                   }
+                }
+              }
+              ... on VideoBlockRecord {
+                id
+                video {
+                  url
                 }
               }
             }
@@ -83,6 +95,12 @@ export async function getStaticProps({ params, preview = false }) {
                   }
                 }
               }
+              ... on VideoBlockRecord {
+                id
+                video {
+                  url
+                }
+              }
             }
           }
           process {
@@ -97,6 +115,12 @@ export async function getStaticProps({ params, preview = false }) {
                   }
                 }
               }
+              ... on VideoBlockRecord {
+                id
+                video {
+                  url
+                }
+              }
             }
           }
           conclusion {
@@ -109,6 +133,12 @@ export async function getStaticProps({ params, preview = false }) {
                   responsiveImage(imgixParams: {fm: jpg, fit: crop, w: 2000, h: 1000 }) {
                     ...responsiveImageFragment
                   }
+                }
+              }
+              ... on VideoBlockRecord {
+                id
+                video {
+                  url
                 }
               }
             }
@@ -234,14 +264,16 @@ export default function Post({ subscription, preview }) {
         </div>
 
         <div className="relative ">
-          <Layout>
-            <Container>
+          {morePosts.length > 0 && 
+            <Layout>
+              <Container>
               <div className="md:py-16">
-              {morePosts.length > 0 && <MoreStories posts={morePosts} />}
+                <MoreStories posts={morePosts} />
               </div>
             </Container>
-          </Layout>
+          </Layout>}
         </div>
+
         <Contact></Contact>
         <Footer></Footer>
   </>
