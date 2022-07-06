@@ -12,7 +12,7 @@ module.exports = {
       },
       colors: {
         "accent-1": "#9491D9",
-        black : '#000000',
+        black : '#191E35',
         white: '#F2F2F2',
         success: "#0070f3",
         cyan: "#79FFE1",
