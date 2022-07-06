@@ -152,7 +152,7 @@ export default function PostBody({ content, challenge, goal, process, conclusion
           />}
         </div>
         {hyperlink && <a href={hyperlink} className="arrow-button max-w-full opacity-1 inline-block mt-10">
-            <div class="cta-text">See live site</div>
+            <div class="cta-text">See live project</div>
             <div class="arrow-cta">
               <svg width="37" height="17" viewBox="0 0 37 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path className="fill-accent-1" fill-rule="evenodd" clip-rule="evenodd" d="M27.5377 1.1906L28.1347 2.63918C29.0998 4.98087 30.8573 6.86515 33.0501 8.0001L0 8.0001V9.0001L33.05 9.0001C30.8572 10.135 29.0998 12.0193 28.1347 14.361L27.5377 15.8096L28.4623 16.1906L29.0593 14.742C30.287 11.763 32.9311 9.60166 36.0948 8.99103V8.00915C32.9311 7.39852 30.287 5.23713 29.0593 2.25815L28.4623 0.80957L27.5377 1.1906Z"></path>
