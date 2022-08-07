@@ -81,13 +81,13 @@ export default function Index({ subscription }) {
       <Menu page="home"></Menu>
       <div className="sticky top-0 title z-0">
         <Container>
-            <section className="md:h-screen flex-col md:flex-row flex items-center justify-center pt-32 md:pt-40 pb-0 md:pb-32">
+            <section className="h-screen flex-col md:flex-row flex items-center justify-center pt-32 md:pt-40 pb-0 md:pb-32">
                 <h1 className="font-bold text-6xl md:text-9xl text-center">
                 <span>data scientist</span> <br/>
                 <span><i className="font-light font-accent">and </i></span>
                 <span> developer</span> <br/>
                 </h1>
-                <p className="hidden md:block absolute bottom-6 text-sm">Scroll down</p>
+                <p className="absolute bottom-16 text-sm">Scroll down</p>
             </section>
         </Container>
       </div>
