@@ -237,7 +237,7 @@ export default function Home({ articles }) {
         <title>adolfo l.h. | Data Engineer & Developer</title>
         <meta
           name="description"
-          content="I’m Spencer, a software designer and entrepreneur based in New York City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms."
+          content="I’m Adolfo, a data engineer and software designer based in London."
         />
       </Head>
       <Container className="mt-32 sm:mt-40">
