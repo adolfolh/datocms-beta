@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Adolfo L.h:</title>
-        <link>https://example.com</link>
+        <link>undefined</link>
         <description>Your blog description</description>
-        <lastBuildDate>Fri, 30 Dec 2022 12:49:08 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 30 Dec 2022 16:03:45 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
             <title>Adolfo L.h:</title>
-            <url>https://example.com/favicon.ico</url>
-            <link>https://example.com</link>
+            <url>undefined/favicon.ico</url>
+            <link>undefined</link>
         </image>
         <copyright>All rights reserved 2022</copyright>
         <item>
             <title><![CDATA[Lorem markdownum, bracchia in redibam! Terque unda puppi nec]]></title>
-            <link>https://example.com/articles/incredible-article</link>
-            <guid>https://example.com/articles/incredible-article</guid>
+            <link>undefined/articles/incredible-article</link>
+            <guid>undefined/articles/incredible-article</guid>
             <pubDate>Fri, 30 Dec 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Deus feram verumque, fecit, ira tamen, terras per alienae victum. Mutantur levitate quas ubi arcum ripas oculos abest.]]></description>
             <content:encoded><![CDATA[<p>Lorem markdownum, bracchia in redibam! Terque unda puppi nec, linguae posterior in utraque respicere candidus Mimasque formae; quae conantem cervice.</p>

@@ -1,18 +1,17 @@
 {
     "version": "https://jsonfeed.org/version/1",
     "title": "Adolfo L.h:",
-    "home_page_url": "https://example.com",
-    "feed_url": "https://example.com/rss/feed.json",
+    "feed_url": "undefined/rss/feed.json",
     "description": "Your blog description",
-    "icon": "https://example.com/favicon.ico",
+    "icon": "undefined/favicon.ico",
     "author": {
         "name": "Adolfo L.h:"
     },
     "items": [
         {
-            "id": "https://example.com/articles/incredible-article",
+            "id": "undefined/articles/incredible-article",
             "content_html": "<p>Lorem markdownum, bracchia in redibam! Terque unda puppi nec, linguae posterior in utraque respicere candidus Mimasque formae; quae conantem cervice.</p>\n<p>Deus feram verumque, fecit, ira tamen, terras per alienae victum. Mutantur levitate quas ubi arcum ripas oculos abest.</p>\n<h2>Sermone fata</h2>\n<p>Lorem markdownum, bracchia in redibam! Terque unda puppi nec, linguae posterior\nin utraque respicere candidus Mimasque formae; quae conantem cervice. Parcite\nvariatus, redolentia adeunt. Tyrioque dies, naufraga sua adit partibus celanda\ntorquere temptata, erit maneat et ramos, <a href=\"#\">iam</a> ait dominari\npotitus! Tibi litora matremque fumantia condi radicibus opusque.</p>\n<p>Deus feram verumque, fecit, ira tamen, terras per alienae victum. Mutantur\nlevitate quas ubi arcum ripas oculos abest. Adest <a href=\"#\">commissaque\nvictae</a> in gemitus nectareis ire diva\ndotibus ora, et findi huic invenit; fatis? Fractaque dare superinposita\nnimiumque simulatoremque sanguine, at voce aestibus diu! Quid veterum hausit tu\nnil utinam paternos ima, commentaque.</p>\n<pre class=\"language-python\"><code class=\"language-python\"><span class=\"token keyword\">def</span> <span class=\"token function\">hey</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">:</span>\n        <span class=\"token keyword\">print</span><span class=\"token punctuation\">(</span><span class=\"token string\">&#x27;hey&#x27;</span><span class=\"token punctuation\">)</span>\n        <span class=\"token keyword\">return</span>\n</code></pre>\n<p>Aere repetiti cognataque natus. Habebat vela solutis saepe munus nondum adhuc\noscula nomina pignora corpus deserat.</p>\n<h2>Lethaei Pindumve me quae dinumerat Pavor</h2>\n<p>Idem se saxa fata pollentibus geminos; quos pedibus. Est urnis Herses omnes nec\ndivite: et ille illa furit sim verbis Cyllenius.</p>\n<ol>\n<li>Captus inpleverunt collo</li>\n<li>Nec nam placebant</li>\n<li>Siquos vulgus</li>\n<li>Dictis carissime fugae</li>\n<li>A tacitos nulla viginti</li>\n</ol>\n<p>Ungues fistula annoso, ille addit linoque motatque uberior verso\n<a href=\"#\">rubuerunt</a> confine desuetaque. <em>Sanguine</em> anteit\nemerguntque expugnacior est pennas iniqui ecce <strong>haeret</strong> genus: peiora imagine\nfossas Cephisos formosa! Refugitque amata <a href=\"#\">refelli</a>\nsupplex. Summa brevis vetuere tenebas, hostes vetantis, suppressit, arreptum\nregna. Postquam conpescit iuvenis habet corpus, et erratica, perdere, tot mota\nars talis.</p>\n<p>Sit volat naturam; motu Cancri. Erat pro simul quae valuit quoque timorem quam\nproelia: illo patrio <em>esse summus</em>, enim sua serpentibus, Hyleusque. Est coniuge\nrecuso; refert Coroniden ignotos manat, adfectu.</p>",
-            "url": "https://example.com/articles/incredible-article",
+            "url": "undefined/articles/incredible-article",
             "title": "Lorem markdownum, bracchia in redibam! Terque unda puppi nec",
             "summary": "Deus feram verumque, fecit, ira tamen, terras per alienae victum. Mutantur levitate quas ubi arcum ripas oculos abest.",
             "date_modified": "2022-12-30T00:00:00.000Z",
